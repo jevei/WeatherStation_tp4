@@ -15,6 +15,7 @@ namespace WeatherApp
             InitializeComponent();
 
             /// TODO : Faire les appels de configuration ici ainsi que l'initialisation
+            AppConfiguration.GetValue("OWApiKey");
 
             vm = new TemperatureViewModel();
 
